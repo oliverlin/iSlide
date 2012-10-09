@@ -1,0 +1,1426 @@
+/* line 17, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../Applications/compass.app/Contents/Resources/ruby/compass_0.11/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/phone.scss */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+}
+
+/* line 10, ../sass/phone.scss */
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  word-break: break-all;
+  text-align: left;
+  border: 0px;
+  font-family: Arial, Helvetica Neue;
+}
+
+/* line 13, ../sass/phone.scss */
+html, body, #wrap {
+  height: 100%;
+}
+
+/* line 14, ../sass/phone.scss */
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 17, ../sass/phone.scss */
+body > .bbg {
+  height: auto;
+  min-height: 100%;
+  *height: 100%;
+}
+
+/* line 18, ../sass/phone.scss */
+body {
+  min-width: 480px;
+  position: relative;
+  padding: 0px!important;
+  margin: 0px!important;
+  bottom: 0px;
+  top: 0px;
+  -webkit-text-size-adjust: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* line 28, ../sass/phone.scss */
+.ooxx {
+  text-align: center;
+  padding: 10px;
+  background: #e1e1e1;
+}
+
+/* line 33, ../sass/phone.scss */
+#slide_stage {
+  height: 320px;
+  width: 100%;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  padding: 0px!important;
+  margin: 0px!important;
+  bottom: 0px;
+  top: 0px;
+  -webkit-text-size-adjust: none;
+  z-index: 10000;
+  -pie-background: url(../images/point.png) center center repeat, white;
+  background: url(../images/point.png) center center repeat, white;
+  background-size: 75px 75px;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  overflow: hidden;
+  -webkit-perspective: 2800;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 55, ../sass/phone.scss */
+.css-animation, .stage_ot, #des_1a, #des_1b, #des_2a, #des_2b, #des_3a, #des_3b, #des_4a, #des_4b, .word_block1 .line_1, .word_block1 .line_2, .word_block1 .line_3, .word_block2 .line_1, .word_block2 .line_2, .word_block2 .line_3, .word_block3 .line_1, .word_block3 .line_2, .word_block3 .line_3, .word_block4 .line_1, .word_block4 .line_2, .word_block4 .line_3, .word_block0 .line_1, .word_block0 .line_2, .word_block0 .line_3, .word_block1.active .line_1, .word_block1.active .line_2, .word_block1.active .line_3, .stage_ot.set_1, .stage_ot.set_1 #des_1a, .stage_ot.set_1 #des_1b, .stage_ot.set_1 #des_2a, .stage_ot.set_1 #des_2b, .stage_ot.set_1 #des_3a, .stage_ot.set_1 #des_3b, .stage_ot.set_1 #des_4a, .stage_ot.set_1 #des_4b, .word_block2.active .line_1, .word_block2.active .line_2, .word_block2.active .line_3, .stage_ot.set_2, .stage_ot.set_2 #des_1a, .stage_ot.set_2 #des_1b, .stage_ot.set_2 #des_2a, .stage_ot.set_2 #des_2b, .stage_ot.set_2 #des_3a, .stage_ot.set_2 #des_3b, .stage_ot.set_2 #des_4a, .stage_ot.set_2 #des_4b, .word_block3.active .line_1, .word_block3.active .line_2, .word_block3.active .line_3, .stage_ot.set_3, .stage_ot.set_3 #des_1a, .stage_ot.set_3 #des_1b, .stage_ot.set_3 #des_2a, .stage_ot.set_3 #des_2b, .stage_ot.set_3 #des_3a, .stage_ot.set_3 #des_3b, .stage_ot.set_3 #des_4a, .stage_ot.set_3 #des_4b, .word_block4.active .line_1, .word_block4.active .line_2, .word_block4.active .line_3, .stage_ot.set_4, .stage_ot.set_4 #des_1a, .stage_ot.set_4 #des_1b, .stage_ot.set_4 #des_2a, .stage_ot.set_4 #des_2b, .stage_ot.set_4 #des_3a, .stage_ot.set_4 #des_3b, .stage_ot.set_4 #des_4a, .stage_ot.set_4 #des_4b, .word_block0.active .line_1, .word_block0.active .line_2, .word_block0.active .line_3, .stage_ot.set_0, .stage_ot.set_0 #des_1a, .stage_ot.set_0 #des_1b, .stage_ot.set_0 #des_2a, .stage_ot.set_0 #des_2b, .stage_ot.set_0 #des_3a, .stage_ot.set_0 #des_3b, .stage_ot.set_0 #des_4a, .stage_ot.set_0 #des_4b {
+  -webkit-transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1);
+  /* older webkit */
+  -webkit-transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition: all 1500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+}
+
+/* line 70, ../sass/phone.scss */
+.css-animation2 {
+  -webkit-transition: all 2500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition: all 2500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition: all 2500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition: all 2500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition: all 2500ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+}
+
+/* line 84, ../sass/phone.scss */
+.css-animation3, .control_panel div, .control_panel div.active {
+  -webkit-transition: all 800ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition: all 800ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition: all 800ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition: all 800ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition: all 800ms cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1);
+  /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -moz-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -ms-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  -o-transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  transition-timing-function: cubic-bezier(0.405, 0.085, 0.325, 1.055);
+  /* custom */
+}
+
+/* line 101, ../sass/phone.scss */
+.h100 {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 114, ../sass/phone.scss */
+.stage_ot {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  height: 200px;
+  width: 200px;
+  margin-right: 400px;
+  -webkit-perspective: 2000;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective-origin-x: 50%;
+  -webkit-perspective-origin-y: 50%;
+  -moz-transform: rotateY(0deg) rotateX(0deg);
+  -webkit-transform: rotateY(0deg) rotateX(0deg);
+  -o-transform: rotateY(0deg) rotateX(0deg);
+  -ms-transform: rotateY(0deg) rotateX(0deg);
+  transform: rotateY(0deg) rotateX(0deg);
+}
+
+/* line 130, ../sass/phone.scss */
+.slide {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective-origin-x: 50%;
+  -webkit-perspective-origin-y: 50%;
+}
+
+/* line 135, ../sass/phone.scss */
+#des_1a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background: url(../images/muset_1a.png) center center no-repeat;
+  background-size: contain;
+  -moz-transform: translateZ(0px);
+  -webkit-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  transform: translateZ(0px);
+}
+
+/* line 147, ../sass/phone.scss */
+#des_1b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background-size: contain;
+  -moz-transform: translateZ(-40px);
+  -webkit-transform: translateZ(-40px);
+  -o-transform: translateZ(-40px);
+  -ms-transform: translateZ(-40px);
+  transform: translateZ(-40px);
+}
+/* line 157, ../sass/phone.scss */
+#des_1b .video {
+  position: absolute;
+  top: 103px;
+  left: 66px;
+  width: 574px;
+  height: 324px;
+  overflow: hidden;
+}
+
+/* line 166, ../sass/phone.scss */
+#des_2a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background: url(../images/muset_2a.png) center center no-repeat;
+  background-size: contain;
+  -moz-transform: scale(0.6) translateZ(0px);
+  -webkit-transform: scale(0.6) translateZ(0px);
+  -o-transform: scale(0.6) translateZ(0px);
+  -ms-transform: scale(0.6) translateZ(0px);
+  transform: scale(0.6) translateZ(0px);
+}
+
+/* line 178, ../sass/phone.scss */
+#des_2b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background-size: contain;
+  -moz-transform: scale(0.1) translateZ(-40px);
+  -webkit-transform: scale(0.1) translateZ(-40px);
+  -o-transform: scale(0.1) translateZ(-40px);
+  -ms-transform: scale(0.1) translateZ(-40px);
+  transform: scale(0.1) translateZ(-40px);
+}
+/* line 188, ../sass/phone.scss */
+#des_2b .video {
+  position: absolute;
+  top: 143px;
+  left: 249px;
+  width: 215px;
+  height: 383px;
+  overflow: hidden;
+}
+/* line 195, ../sass/phone.scss */
+#des_2b .video video {
+  margin-left: -400px;
+}
+
+/* line 200, ../sass/phone.scss */
+#des_3a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background: url(../images/muset_3a.png) center center no-repeat;
+  background-size: contain;
+  -moz-transform: scale(0.6) translateZ(0px);
+  -webkit-transform: scale(0.6) translateZ(0px);
+  -o-transform: scale(0.6) translateZ(0px);
+  -ms-transform: scale(0.6) translateZ(0px);
+  transform: scale(0.6) translateZ(0px);
+}
+
+/* line 212, ../sass/phone.scss */
+#des_3b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background-size: contain;
+  -moz-transform: scale(0.6) translateZ(-40px);
+  -webkit-transform: scale(0.6) translateZ(-40px);
+  -o-transform: scale(0.6) translateZ(-40px);
+  -ms-transform: scale(0.6) translateZ(-40px);
+  transform: scale(0.6) translateZ(-40px);
+}
+/* line 222, ../sass/phone.scss */
+#des_3b .video {
+  position: absolute;
+  top: 97px;
+  left: 185px;
+  width: 337px;
+  height: 450px;
+  overflow: hidden;
+}
+/* line 229, ../sass/phone.scss */
+#des_3b .video video {
+  margin-left: -200px;
+}
+
+/* line 234, ../sass/phone.scss */
+#des_4a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background: url(../images/muset_4a.png) center center no-repeat;
+  background-size: contain;
+  -moz-transform: rotateZ(90deg) translateZ(0px);
+  -webkit-transform: rotateZ(90deg) translateZ(0px);
+  -o-transform: rotateZ(90deg) translateZ(0px);
+  -ms-transform: rotateZ(90deg) translateZ(0px);
+  transform: rotateZ(90deg) translateZ(0px);
+}
+
+/* line 246, ../sass/phone.scss */
+#des_4b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+  background-size: contain;
+  -moz-transform: rotateZ(90deg) translateZ(-40px);
+  -webkit-transform: rotateZ(90deg) translateZ(-40px);
+  -o-transform: rotateZ(90deg) translateZ(-40px);
+  -ms-transform: rotateZ(90deg) translateZ(-40px);
+  transform: rotateZ(90deg) translateZ(-40px);
+}
+/* line 256, ../sass/phone.scss */
+#des_4b .video {
+  position: absolute;
+  top: 218px;
+  left: 124px;
+  width: 450px;
+  height: 337px;
+  overflow: hidden;
+}
+/* line 263, ../sass/phone.scss */
+#des_4b .video video {
+  margin-left: 0px;
+}
+
+/* line 268, ../sass/phone.scss */
+.word_block1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 370px;
+  width: 170px;
+  -webkit-perspective: 450;
+  /* Safari and Chrome */
+  -webkit-perspective-origin: 50% 50px;
+  /* Safari and Chrome */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 277, ../sass/phone.scss */
+.word_block1 div {
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  font-size: 180%;
+  color: #fff;
+  padding: 10px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* line 287, ../sass/phone.scss */
+.word_block1 .line_1 {
+  background-size: contain;
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 0ms;
+}
+/* line 294, ../sass/phone.scss */
+.word_block1 .line_2 {
+  background-size: contain;
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 200ms;
+}
+/* line 301, ../sass/phone.scss */
+.word_block1 .line_3 {
+  background-size: contain;
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 309, ../sass/phone.scss */
+.word_block2 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 370px;
+  -webkit-perspective: 450;
+  /* Safari and Chrome */
+  -webkit-perspective-origin: 50% 50px;
+  /* Safari and Chrome */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transform: translateX(-180px) translateY(100px);
+  -webkit-transform: translateX(-180px) translateY(100px);
+  -o-transform: translateX(-180px) translateY(100px);
+  -ms-transform: translateX(-180px) translateY(100px);
+  transform: translateX(-180px) translateY(100px);
+}
+/* line 318, ../sass/phone.scss */
+.word_block2 div {
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  font-size: 180%;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* line 330, ../sass/phone.scss */
+.word_block2 .line_1 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 0ms;
+}
+/* line 336, ../sass/phone.scss */
+.word_block2 .line_2 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 200ms;
+}
+/* line 342, ../sass/phone.scss */
+.word_block2 .line_3 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 349, ../sass/phone.scss */
+.word_block3 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 370px;
+  -webkit-perspective: 450;
+  /* Safari and Chrome */
+  -webkit-perspective-origin: 50% 50px;
+  /* Safari and Chrome */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transform: translateX(-140px) translateY(0px);
+  -webkit-transform: translateX(-140px) translateY(0px);
+  -o-transform: translateX(-140px) translateY(0px);
+  -ms-transform: translateX(-140px) translateY(0px);
+  transform: translateX(-140px) translateY(0px);
+}
+/* line 358, ../sass/phone.scss */
+.word_block3 div {
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  font-size: 180%;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* line 370, ../sass/phone.scss */
+.word_block3 .line_1 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 0ms;
+}
+/* line 376, ../sass/phone.scss */
+.word_block3 .line_2 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 200ms;
+}
+/* line 382, ../sass/phone.scss */
+.word_block3 .line_3 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 389, ../sass/phone.scss */
+.word_block4 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-left: 370px;
+  -webkit-perspective: 450;
+  /* Safari and Chrome */
+  -webkit-perspective-origin: 50% 50px;
+  /* Safari and Chrome */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transform: translateX(-80px) translateY(-60px);
+  -webkit-transform: translateX(-80px) translateY(-60px);
+  -o-transform: translateX(-80px) translateY(-60px);
+  -ms-transform: translateX(-80px) translateY(-60px);
+  transform: translateX(-80px) translateY(-60px);
+}
+/* line 398, ../sass/phone.scss */
+.word_block4 div {
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  font-size: 180%;
+  color: #fff;
+  padding: 10px;
+  width: 180px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* line 410, ../sass/phone.scss */
+.word_block4 .line_1 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 0ms;
+}
+/* line 416, ../sass/phone.scss */
+.word_block4 .line_2 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 200ms;
+}
+/* line 422, ../sass/phone.scss */
+.word_block4 .line_3 {
+  -moz-transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  opacity: 0;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 429, ../sass/phone.scss */
+.word_block0 {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  margin-left: 340px;
+  height: 250px;
+  -webkit-perspective: 450;
+  /* Safari and Chrome */
+  -webkit-perspective-origin: 50% 50px;
+  /* Safari and Chrome */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 438, ../sass/phone.scss */
+.word_block0 div {
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  margin-bottom: 8px;
+  font-size: 180%;
+  color: #666;
+  width: 370px;
+}
+/* line 446, ../sass/phone.scss */
+.word_block0 .line_1 {
+  -moz-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+  -o-transform: translateX(200px);
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+  opacity: 0;
+  -webkit-transition-delay: 0ms;
+  background-size: contain;
+  -webkit-transform-origin: left center;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: rgba(0, 0, 0, 0.3);
+  margin-bottom: 5px;
+  font-size: 240%;
+  color: #fff;
+  padding: 10px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+/* line 461, ../sass/phone.scss */
+.word_block0 .line_2 {
+  padding: 10px;
+  padding-top: 20px;
+  -moz-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+  -o-transform: translateX(200px);
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+  opacity: 0;
+  -webkit-transition-delay: 100ms;
+}
+/* line 469, ../sass/phone.scss */
+.word_block0 .line_3 {
+  padding: 10px;
+  -moz-transform: translateX(200px);
+  -webkit-transform: translateX(200px);
+  -o-transform: translateX(200px);
+  -ms-transform: translateX(200px);
+  transform: translateX(200px);
+  opacity: 0;
+  -webkit-transition-delay: 200ms;
+}
+
+/* line 477, ../sass/phone.scss */
+.control_panel {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 999999999;
+}
+/* line 482, ../sass/phone.scss */
+.control_panel div {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(50%, rgba(170, 170, 170, 0.7)), color-stop(51%, rgba(136, 136, 136, 0.7)), color-stop(100%, rgba(153, 153, 153, 0.2)));
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  -pie-background: linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  background: linear-gradient(top, rgba(255, 255, 255, 0.5) 0%, rgba(170, 170, 170, 0.7) 50%, rgba(136, 136, 136, 0.7) 51%, rgba(153, 153, 153, 0.2) 100%);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7);
+  margin-left: 10px;
+  font-size: 160%;
+  color: #555;
+  text-shadow: 0 1px 0 white;
+  padding: 4px 10px;
+  font-family: Times;
+}
+/* line 496, ../sass/phone.scss */
+.control_panel div.active {
+  -moz-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7), 0 -2px 12px rgba(0, 171, 239, 0.7);
+  -webkit-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7), 0 -2px 12px rgba(0, 171, 239, 0.7);
+  -o-box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7), 0 -2px 12px rgba(0, 171, 239, 0.7);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -3px 2px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.3), 0 0 1px rgba(0, 0, 0, 0.7), 0 -2px 12px rgba(0, 171, 239, 0.7);
+  color: #6A8F9E;
+}
+
+/* line 503, ../sass/phone.scss */
+.prev {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 100%;
+}
+/* line 508, ../sass/phone.scss */
+.prev .btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 514, ../sass/phone.scss */
+.prev .btn div {
+  position: absolute;
+  top: -16px;
+  left: 20px;
+  z-index: 2000000;
+  width: 32px;
+  height: 32px;
+  background: url(../images/prev.png) top left;
+  background-size: contain;
+}
+/* line 523, ../sass/phone.scss */
+.prev .btn div:hover {
+  background: url(../images/prev_hover.png) top left;
+  background-size: contain;
+}
+
+/* line 530, ../sass/phone.scss */
+.next {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 100%;
+}
+/* line 535, ../sass/phone.scss */
+.next .btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 541, ../sass/phone.scss */
+.next .btn div {
+  position: absolute;
+  top: -16px;
+  right: 20px;
+  z-index: 2000000;
+  width: 32px;
+  height: 32px;
+  background: url(../images/next.png) top left;
+  background-size: contain;
+}
+/* line 550, ../sass/phone.scss */
+.next .btn div:hover {
+  background: url(../images/next_hover.png) top left;
+  background-size: contain;
+}
+
+/* set_1 */
+/* line 561, ../sass/phone.scss */
+.word_block1.active .line_1 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+}
+/* line 567, ../sass/phone.scss */
+.word_block1.active .line_2 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 200ms;
+}
+/* line 573, ../sass/phone.scss */
+.word_block1.active .line_3 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 581, ../sass/phone.scss */
+.stage_ot.set_1 {
+  -moz-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -webkit-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -o-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -ms-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+}
+/* line 584, ../sass/phone.scss */
+.stage_ot.set_1 #des_1a {
+  opacity: 1;
+  -moz-transform: scale(1) translateZ(120px);
+  -webkit-transform: scale(1) translateZ(120px);
+  -o-transform: scale(1) translateZ(120px);
+  -ms-transform: scale(1) translateZ(120px);
+  transform: scale(1) translateZ(120px);
+}
+/* line 589, ../sass/phone.scss */
+.stage_ot.set_1 #des_1b {
+  opacity: 1;
+  -moz-transform: scale(1) translateZ(119.6px);
+  -webkit-transform: scale(1) translateZ(119.6px);
+  -o-transform: scale(1) translateZ(119.6px);
+  -ms-transform: scale(1) translateZ(119.6px);
+  transform: scale(1) translateZ(119.6px);
+}
+/* line 594, ../sass/phone.scss */
+.stage_ot.set_1 #des_2a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 599, ../sass/phone.scss */
+.stage_ot.set_1 #des_2b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 604, ../sass/phone.scss */
+.stage_ot.set_1 #des_3a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 609, ../sass/phone.scss */
+.stage_ot.set_1 #des_3b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 614, ../sass/phone.scss */
+.stage_ot.set_1 #des_4a {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+/* line 619, ../sass/phone.scss */
+.stage_ot.set_1 #des_4b {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+
+/* set_1 */
+/* set_2 */
+/* line 629, ../sass/phone.scss */
+.word_block2.active .line_1 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+}
+/* line 635, ../sass/phone.scss */
+.word_block2.active .line_2 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 200ms;
+}
+/* line 641, ../sass/phone.scss */
+.word_block2.active .line_3 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 649, ../sass/phone.scss */
+.stage_ot.set_2 {
+  -moz-transform: rotateY(20deg) rotateX(10deg) translateY(40px);
+  -webkit-transform: rotateY(20deg) rotateX(10deg) translateY(40px);
+  -o-transform: rotateY(20deg) rotateX(10deg) translateY(40px);
+  -ms-transform: rotateY(20deg) rotateX(10deg) translateY(40px);
+  transform: rotateY(20deg) rotateX(10deg) translateY(40px);
+}
+/* line 652, ../sass/phone.scss */
+.stage_ot.set_2 #des_1a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 657, ../sass/phone.scss */
+.stage_ot.set_2 #des_1b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 662, ../sass/phone.scss */
+.stage_ot.set_2 #des_2a {
+  opacity: 0.8;
+  -moz-transform: scale(1) translateZ(80px);
+  -webkit-transform: scale(1) translateZ(80px);
+  -o-transform: scale(1) translateZ(80px);
+  -ms-transform: scale(1) translateZ(80px);
+  transform: scale(1) translateZ(80px);
+}
+/* line 667, ../sass/phone.scss */
+.stage_ot.set_2 #des_2b {
+  opacity: 0.9;
+  -moz-transform: scale(1) translateZ(79.6px);
+  -webkit-transform: scale(1) translateZ(79.6px);
+  -o-transform: scale(1) translateZ(79.6px);
+  -ms-transform: scale(1) translateZ(79.6px);
+  transform: scale(1) translateZ(79.6px);
+}
+/* line 672, ../sass/phone.scss */
+.stage_ot.set_2 #des_3a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 677, ../sass/phone.scss */
+.stage_ot.set_2 #des_3b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 682, ../sass/phone.scss */
+.stage_ot.set_2 #des_4a {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+/* line 687, ../sass/phone.scss */
+.stage_ot.set_2 #des_4b {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+
+/* set_2 */
+/* set_3 */
+/* line 696, ../sass/phone.scss */
+.word_block3.active .line_1 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+}
+/* line 702, ../sass/phone.scss */
+.word_block3.active .line_2 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 200ms;
+}
+/* line 708, ../sass/phone.scss */
+.word_block3.active .line_3 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 716, ../sass/phone.scss */
+.stage_ot.set_3 {
+  -moz-transform: rotateY(-10deg) rotateX(10deg) translateY(30px);
+  -webkit-transform: rotateY(-10deg) rotateX(10deg) translateY(30px);
+  -o-transform: rotateY(-10deg) rotateX(10deg) translateY(30px);
+  -ms-transform: rotateY(-10deg) rotateX(10deg) translateY(30px);
+  transform: rotateY(-10deg) rotateX(10deg) translateY(30px);
+}
+/* line 719, ../sass/phone.scss */
+.stage_ot.set_3 #des_1a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 724, ../sass/phone.scss */
+.stage_ot.set_3 #des_1b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 729, ../sass/phone.scss */
+.stage_ot.set_3 #des_2a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 734, ../sass/phone.scss */
+.stage_ot.set_3 #des_2b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 739, ../sass/phone.scss */
+.stage_ot.set_3 #des_3a {
+  opacity: 0.8;
+  -moz-transform: scale(1) translateZ(80px);
+  -webkit-transform: scale(1) translateZ(80px);
+  -o-transform: scale(1) translateZ(80px);
+  -ms-transform: scale(1) translateZ(80px);
+  transform: scale(1) translateZ(80px);
+}
+/* line 744, ../sass/phone.scss */
+.stage_ot.set_3 #des_3b {
+  opacity: 0.9;
+  -moz-transform: scale(1) translateZ(79.6px);
+  -webkit-transform: scale(1) translateZ(79.6px);
+  -o-transform: scale(1) translateZ(79.6px);
+  -ms-transform: scale(1) translateZ(79.6px);
+  transform: scale(1) translateZ(79.6px);
+}
+/* line 749, ../sass/phone.scss */
+.stage_ot.set_3 #des_4a {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+/* line 754, ../sass/phone.scss */
+.stage_ot.set_3 #des_4b {
+  opacity: 0;
+  -moz-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -webkit-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -o-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  -ms-transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+  transform: scale(0.6) rotateZ(90deg) translateZ(40px);
+}
+
+/* set_3 */
+/* set_4 */
+/* line 763, ../sass/phone.scss */
+.word_block4.active .line_1 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+}
+/* line 769, ../sass/phone.scss */
+.word_block4.active .line_2 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 200ms;
+}
+/* line 775, ../sass/phone.scss */
+.word_block4.active .line_3 {
+  -moz-transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 783, ../sass/phone.scss */
+.stage_ot.set_4 {
+  -moz-transform: rotateY(-10deg) rotateX(10deg) translateY(20px);
+  -webkit-transform: rotateY(-10deg) rotateX(10deg) translateY(20px);
+  -o-transform: rotateY(-10deg) rotateX(10deg) translateY(20px);
+  -ms-transform: rotateY(-10deg) rotateX(10deg) translateY(20px);
+  transform: rotateY(-10deg) rotateX(10deg) translateY(20px);
+}
+/* line 786, ../sass/phone.scss */
+.stage_ot.set_4 #des_1a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 791, ../sass/phone.scss */
+.stage_ot.set_4 #des_1b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 796, ../sass/phone.scss */
+.stage_ot.set_4 #des_2a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 801, ../sass/phone.scss */
+.stage_ot.set_4 #des_2b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 806, ../sass/phone.scss */
+.stage_ot.set_4 #des_3a {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 811, ../sass/phone.scss */
+.stage_ot.set_4 #des_3b {
+  opacity: 0;
+  -moz-transform: scale(0.6) translateZ(40px);
+  -webkit-transform: scale(0.6) translateZ(40px);
+  -o-transform: scale(0.6) translateZ(40px);
+  -ms-transform: scale(0.6) translateZ(40px);
+  transform: scale(0.6) translateZ(40px);
+}
+/* line 816, ../sass/phone.scss */
+.stage_ot.set_4 #des_4a {
+  opacity: 0.8;
+  -moz-transform: scale(1) rotateZ(0deg) translateZ(80px);
+  -webkit-transform: scale(1) rotateZ(0deg) translateZ(80px);
+  -o-transform: scale(1) rotateZ(0deg) translateZ(80px);
+  -ms-transform: scale(1) rotateZ(0deg) translateZ(80px);
+  transform: scale(1) rotateZ(0deg) translateZ(80px);
+}
+/* line 821, ../sass/phone.scss */
+.stage_ot.set_4 #des_4b {
+  opacity: 0.9;
+  -moz-transform: scale(1) rotateZ(0deg) translateZ(79.6px);
+  -webkit-transform: scale(1) rotateZ(0deg) translateZ(79.6px);
+  -o-transform: scale(1) rotateZ(0deg) translateZ(79.6px);
+  -ms-transform: scale(1) rotateZ(0deg) translateZ(79.6px);
+  transform: scale(1) rotateZ(0deg) translateZ(79.6px);
+}
+
+/* set_4 */
+/* set_0 */
+/* line 830, ../sass/phone.scss */
+.word_block0.active .line_1 {
+  -moz-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+  -webkit-transition-delay: 0ms;
+}
+/* line 836, ../sass/phone.scss */
+.word_block0.active .line_2 {
+  -moz-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+  -webkit-transition-delay: 200ms;
+}
+/* line 842, ../sass/phone.scss */
+.word_block0.active .line_3 {
+  -moz-transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+  opacity: 1;
+  -webkit-transition-delay: 400ms;
+}
+
+/* line 850, ../sass/phone.scss */
+.stage_ot.set_0 {
+  -moz-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -webkit-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -o-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  -ms-transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+  transform: rotateY(0deg) rotateX(0deg) translateY(0px);
+}
+/* line 853, ../sass/phone.scss */
+.stage_ot.set_0 #des_1a {
+  z-index: 5;
+  opacity: 1;
+  -moz-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(40px);
+  -webkit-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(40px);
+  -o-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(40px);
+  -ms-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(40px);
+  transform: scale(0.8) translateX(30px) translateY(55px) translateZ(40px);
+}
+/* line 859, ../sass/phone.scss */
+.stage_ot.set_0 #des_1b {
+  z-index: 4;
+  opacity: 1;
+  -moz-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(39.6px);
+  -webkit-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(39.6px);
+  -o-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(39.6px);
+  -ms-transform: scale(0.8) translateX(30px) translateY(55px) translateZ(39.6px);
+  transform: scale(0.8) translateX(30px) translateY(55px) translateZ(39.6px);
+}
+/* line 865, ../sass/phone.scss */
+.stage_ot.set_0 #des_2a {
+  z-index: 8;
+  opacity: 1;
+  -moz-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(84px);
+  -webkit-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(84px);
+  -o-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(84px);
+  -ms-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(84px);
+  transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(84px);
+}
+/* line 871, ../sass/phone.scss */
+.stage_ot.set_0 #des_2b {
+  z-index: 7;
+  opacity: 1;
+  -moz-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(83.6px);
+  -webkit-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(83.6px);
+  -o-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(83.6px);
+  -ms-transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(83.6px);
+  transform: scale(0.45) rotateY(-5deg) rotateX(2deg) rotateZ(1deg) translateX(-540px) translateY(360px) translateZ(83.6px);
+}
+/* line 877, ../sass/phone.scss */
+.stage_ot.set_0 #des_3a {
+  opacity: 0;
+  -moz-transform: translateZ(40px);
+  -webkit-transform: translateZ(40px);
+  -o-transform: translateZ(40px);
+  -ms-transform: translateZ(40px);
+  transform: translateZ(40px);
+}
+/* line 882, ../sass/phone.scss */
+.stage_ot.set_0 #des_3b {
+  opacity: 0;
+  -moz-transform: translateZ(40px);
+  -webkit-transform: translateZ(40px);
+  -o-transform: translateZ(40px);
+  -ms-transform: translateZ(40px);
+  transform: translateZ(40px);
+}
+/* line 887, ../sass/phone.scss */
+.stage_ot.set_0 #des_4a {
+  z-index: 10;
+  opacity: 1;
+  -moz-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(120px);
+  -webkit-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(120px);
+  -o-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(120px);
+  -ms-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(120px);
+  transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(120px);
+}
+/* line 893, ../sass/phone.scss */
+.stage_ot.set_0 #des_4b {
+  z-index: 9;
+  opacity: 1;
+  -moz-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(119.6px);
+  -webkit-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(119.6px);
+  -o-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(119.6px);
+  -ms-transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(119.6px);
+  transform: scale(0.6) rotateY(10deg) rotateX(2deg) rotateZ(-2deg) translateX(540px) translateY(230px) translateZ(119.6px);
+}
+
+/* set_0 */
